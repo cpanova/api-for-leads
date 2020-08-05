@@ -32,3 +32,5 @@ $response = curl_exec($curl);
 
 curl_close($curl);
 // echo $response;
+
+header('Location: /thankyou.html');  // <-- change 'thankyou.html'
