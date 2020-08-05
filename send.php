@@ -3,10 +3,10 @@
 $url = "https://api-1.cpanova.pro/contact";
 
 $data = array(
-    "name": $_POST["name"],
-    "phone": $_POST["phone"],
-    "offer_id": 18,  // <-- change it
-    "pid": 0  // <-- change it
+    "name" => $_POST["name"],
+    "phone" => $_POST["phone"],
+    "offer_id" => 18,  // <-- change it
+    "pid" => 0  // <-- change it
 );
 
 $data_string = json_encode($data);
